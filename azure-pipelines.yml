@@ -27,4 +27,4 @@ steps:
   inputs:
     files: '**/*.apk'
     apksign: false
-    zipalignLocation: 'JenkinPoc'
+    targetFolder: '$(build.artifactStagingDirectory)'
