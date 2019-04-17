@@ -27,4 +27,7 @@ steps:
   inputs:
     files: '**/*.apk'
     apksign: false
+    zipalign: false
     targetFolder: '$(build.artifactStagingDirectory)'
+
+    
