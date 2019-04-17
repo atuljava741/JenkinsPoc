@@ -27,7 +27,7 @@ steps:
 - task: AndroidSigning@3
   inputs:
     files: '**/*.apk'
-    keystoreFile: 'releasekey.jks'
+    keystoreFile: '$(Build.SourcesDirectory)/releasekey.jks'
     keystorePass: '12345678'
     keystoreAlias: 'poc'
     keyPass: '12345678'
